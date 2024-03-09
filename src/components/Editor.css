@@ -14,8 +14,13 @@
   font-family: Pretendard-Regular;
   flex: 1;
   padding: 15px;
-  border: 1px solid rgb(220, 220, 220);
+  border: 2px solid rgb(220, 220, 220);
   border-radius: 5px;
+}
+
+.Editor input:focus{
+  outline: none;
+  border: 2px solid rgb(37, 147, 255);
 }
 
 .Editor button{
