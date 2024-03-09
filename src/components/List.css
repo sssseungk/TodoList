@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.List > input{
+  font-family: Pretendard-Regular;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 15px 0;
+}
+
+.List > input:focus{
+  outline: none;
+  border-bottom: 3px solid rgb(37, 147, 255);
+}
