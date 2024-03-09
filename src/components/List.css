@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+.List{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .List > input{
   font-family: Pretendard-Regular;
   width: 100%;
@@ -16,4 +22,10 @@
 .List > input:focus{
   outline: none;
   border-bottom: 3px solid rgb(37, 147, 255);
+}
+
+.List .todos_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
